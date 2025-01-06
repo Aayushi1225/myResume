@@ -1,0 +1,245 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f0f6;
+    padding: 20px;
+}
+
+header section .image-container {
+    flex: 1 1 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+header section .name-container,
+header section .information-container {
+    flex: 1 1 15rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-style: inherit;
+    margin: 0;
+    text-shadow: 3px 3px 5px rgba(62, 65, 86, 0.02);
+}
+
+/* Image Animation */
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px dotted #ccc;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Navigation Bar Styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #6200ea;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #3700b3;
+    border-radius: 5px;
+}
+
+/* Section Titles */
+h2 {
+    color: #6200ea;
+    border-bottom: 2px solid #6200ea;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+/* Content Section Styles */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Summary Section */
+#summary p {
+    font-size: 1.1rem;
+}
+
+/* Education Section */
+#education p {
+    margin: 10px 0;
+}
+
+/* Technologies Section */
+#technologies ul {
+    list-style: none;
+    padding: 0;
+}
+
+#technologies li {
+    margin-bottom: 10px;
+}
+
+#technologies h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Tools Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #6200ea;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Experience Section */
+#experience p {
+    margin: 10px 0;
+}
+
+#experience h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Contact Form */
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3700b3;
+}
+
+/* Contact Section */
+#contact a {
+    color: #6200ea;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #6200ea;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}

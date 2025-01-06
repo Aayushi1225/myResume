@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+    <title>My Digital CV</title>
+</head>
+<body>
+    <header>
+        <section>
+            <div class="image-container">
+                <img src="newpf.jpeg" alt="Profile_Photo" class="border-dotted">
+            </div>
+            <div class="name-container">
+                <h1>Aayushi Patel</h1>
+            </div>
+            <div class="information-container">
+                <p>Email: <a href="mailto:ayushiptl2502@gmail.com">ayushiptl2502@gmail.com</a></p>
+                <p>Phone: (614)-974-9225</p>
+            </div>
+        </section>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>I am a dedicated and results-driven Software Developer with 1 year of experience in designing, developing, and implementing applications using a range of technologies and programming languages. Skilled in collaborating with cross-functional teams to deliver high-quality software on time. Experienced in agile methodologies, problem-solving, and optimizing software performance. Passionate about continuous learning and staying up-to-date with the latest industry trends and best practices.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>High school diploma | Gujarat HSC Board | 2019 Year | Grade: 3/4</p>
+        <p>Bachelor of Engineering | Gujarat Technological University | 2024 Year | CGPI: 8.28/10</p>
+    </section>
+
+    <section id="technologies">
+        <h2>Technologies</h2>
+        <h3>Web Development</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Django</li>
+        </ul>
+        <h3>Database</h3>
+        <ul>
+            <li>SQL</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+        </ul>
+        <h3>Project Management Tool</h3>
+        <ul>
+            <li>JIRA</li>
+        </ul>
+        <h3>Other</h3>
+        <ul>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="tools">
+        <h2>Tools</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tool</th>
+                    <th>Description</th>
+                    <th>Proficiency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Visual Studio Code</td>
+                    <td>A comprehensive IDE from Microsoft, with support for a wide range of programming languages and platforms.</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>PyCharm</td>
+                    <td>An IDE specifically designed for Python development, with support for scientific computing and data science tools.</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>A version control system that allows developers to track changes to their code and collaborate with other team members.</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Eclipse</td>
+                    <td>Another popular IDE, with a focus on Java development but support for a range of other languages as well.</td>
+                    <td>Beginner</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Certification</th>
+                    <th>Institution</th>
+                    <th>Date Obtained</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Google Data Analytics</td>
+                    <td>Coursera</td>
+                    <td>March 2024</td>
+                </tr>
+                <tr>
+                    <td>Python for Data Science, AI & Development</td>
+                    <td>Coursera (IBM)</td>
+                    <td>April 2024</td>
+                </tr>
+                <tr>
+                    <td>Supply Chain Management and Analytics</td>
+                    <td>Coursera (Unilever)</td>
+                    <td>April 9, 2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Web Developer</h3>
+        <p>InfoLabs Service PVT LTD | Jan 2023 - Sep 2023</p>
+        <p>I have worked as a junior web developer.</p>
+    </section>
+
+    <section id="contactform">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+                <label for="organization">Organization:</label>
+                <input type="text" id="organization" name="organization">
+            </div>
+            <div>
+                <label for="role">Role:</label>
+                <input type="text" id="role" name="role">
+            </div>
+            <div>
+                <label for="reason">Reason for Contact:</label>
+                <select id="reason" name="reason">
+                    <option value="job_offer">Job Offer</option>
+                    <option value="collaboration">Collaboration</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>
+            <div>
+                <label for="preferred_contact_method">Preferred Contact Method:</label>
+                <select id="preferred_contact_method" name="preferred_contact_method">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:ayushiptl2502@gmail.com">ayushiptl2502@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/aayushi-patel-808093214" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aayushi Patel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
